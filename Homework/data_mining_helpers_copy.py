@@ -6,10 +6,10 @@ Author: Elvis Saravia
 Email: ellfae@gmail.com
 """
 
-def format_rows(docs):
+def format_rows(data: list):
     """ format the text field and strip special characters """
     D = []
-    for d in docs.data:
+    for d in data:
         temp_d = " ".join(d.split("\n")).strip('\n\t')
         D.append([temp_d])
     return D
