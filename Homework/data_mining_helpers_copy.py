@@ -1,11 +1,13 @@
 import nltk
 
 """
+COPY DUE TO IMPORT ISSUES
 Helper functions for data mining lab session 2018 Fall Semester
 Author: Elvis Saravia
 Email: ellfae@gmail.com
 """
 
+# changed this helper to be more inclusive
 def format_rows(data: list):
     """ format the text field and strip special characters """
     D = []

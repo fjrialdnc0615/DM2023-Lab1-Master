@@ -6,6 +6,7 @@ Author: Elvis Saravia
 Email: ellfae@gmail.com
 """
 
+# changed this helper to be more inclusive
 def format_rows(data: list):
     """ format the text field and strip special characters """
     D = []
